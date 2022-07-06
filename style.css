@@ -1,0 +1,120 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(127, 181, 228);
+    font-size:20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    right: 5px;
+    padding: 10px 20px;
+}
+li{
+    padding-right: 20;
+}
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+#name{
+    color:rgb(94, 12, 105);
+    font-size:50px;
+    padding-right: 150px;
+}
+#home{
+    display: flex;
+    background-color: rgb(73, 55, 177);
+    height: 70px;
+    padding-left:140px;
+   text-align: center;
+    font-size:25px;
+}
+#profilepic{
+    height:160px ;
+    width:160px ;
+    margin:10px 10px 10px 10px ;
+    border-radius:80px ;
+}
+#about{
+    display: flex;
+    align-items: center;
+    font-size:25px ;
+}
+hr{
+    width:300px ;
+}
+.project{
+    background-color: white;
+    color: black;
+    height:150px;
+    width:420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    border-radius:10px;
+}
+#work p hr{
+    margin-bottom: 10px;
+}
+#work div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 100%;
+}
+
+ p hr{
+    margin-bottom: 10px;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding:3px ;
+
+}
+progress[value]{
+    height:15px;
+    width:300px;
+    -webkit-appearance:none ;
+}
+
+#certificate{
+
+    padding: 5px 0 5px 0;
+    font-size:20px;
+    text-align: center;
+}
+
+
+#resume{
+    padding: 5px 0 5px 0;
+    font-size:20px;
+    text-align: center;
+}
+
+#contact,form{
+
+    background-color:rgb(50, 126, 156) ;
+    color:rgb(31, 10, 10) ;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding: 3px 0 3px 0;
+}
+.input{
+    line-height:25px ;
+    width:220px ;
+    border-radius:1px ;
+    border-color:black ;
+    margin:10px 0 ;
+}
